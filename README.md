@@ -16,7 +16,10 @@ Now create a virtual environment:
 `virtualenv <virtual_env_name>` (replace <virtual_env_name> with any name. For example you could type: `virtualenv dolphin_acoustics`)
 
 Activate your virtual environment:
-`source <virtual_env_name>/bin/activate`
+
+`source <virtual_env_name>/bin/activate` for Unix or MacOS
+
+or `<virtual_env_name>\Scripts\activate` for Windows
 
 You can verify that you are in the correct virtual environment by typing:
 `which python`
